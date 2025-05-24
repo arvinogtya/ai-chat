@@ -41,13 +41,13 @@ onMounted(() => {
 })
 
 // Copy button
-const copy = () => {
-  isCopy.value = true
-  navigator.clipboard.writeText(rawText.value)
-  setTimeout(() => {
-    isCopy.value = false
-  }, 1000)
-}
+// const copy = () => {
+//   isCopy.value = true
+//   navigator.clipboard.writeText(rawText.value)
+//   setTimeout(() => {
+//     isCopy.value = false
+//   }, 1000)
+// }
 </script>
 
 <template>
